@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "module": "commonjs",
+    "module": "NodeNext",
     "lib": ["dom", "es6", "es2017", "esnext.asynciterable", "ES2020.Promise"],
     "skipLibCheck": true,
     "sourceMap": true,
+    "rootDir": "./src",
     "outDir": "./dist",
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
     "removeComments": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
